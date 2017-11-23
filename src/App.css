@@ -1,0 +1,63 @@
+body {
+  margin:auto;
+  height:100%;
+}
+
+.App {
+  width: 800px;
+  height: 480px;
+  background-color:black;
+  color:#ddf;
+}
+
+.pure-button {
+  font-size:200%;
+}
+
+.btn-ok {
+  background-color:#00ff00;
+  color:white;
+}
+
+.btn-danger {
+  background-color:#ff0000;
+  color:white;
+}
+
+
+label,input {
+  font-size:125%;
+}
+header input {
+  width:120px;
+}
+
+main button{
+
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+.loading {
+  font-size:400%;
+  position:absolute;
+  color:#ff0000;
+  position:absolute;
+  left:245px;
+  top:210px;
+  animation: blink-animation 0.8s steps(5, start) infinite;
+}
+.scan-result-window {
+  font-size:3rem;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
